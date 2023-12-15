@@ -16,6 +16,7 @@ spec:
       containers:
       - name: sample-node-app
         image: node-image
+        imagePullPolicy: Never
         ports:
         - containerPort: 8000
 ---
